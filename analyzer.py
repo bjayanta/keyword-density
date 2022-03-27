@@ -1,8 +1,8 @@
-file = open("C:\\Users\\bjaya\\Desktop\\Python\\readme.txt", "r")
+file = open("data.txt", "r")
 
 categories = {
     "noun": ["lorem", "ipsum", "dummy"],
-    "preposition": ["but", "with", "only"]
+    "preposition": ["of", "with", "to"]
 }
 
 output = {}
