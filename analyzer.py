@@ -2,7 +2,7 @@ file = open("data.txt", "r")
 
 categories = {
     "noun": ["lorem", "ipsum", "dummy"],
-    "preposition": ["of", "with", "to"]
+    "preposition": ["but", "with", "only", "of"]
 }
 
 output = {}
@@ -29,7 +29,12 @@ for category in densities:
 
     result[category] = count / len(group)
 
-# print(output)
-# print(densities)
+print("Count words: ")
+print(output)
+
+print("\nWord density in percentage(%): ")
+print(densities)
+
+print("\nCategory wise density in percentage(%): ")
 print(result)
 
