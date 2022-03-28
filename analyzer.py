@@ -29,7 +29,9 @@ for category in densities:
 
     result[category] = count / len(group)
 
-print("Count words: ")
+print(f"Total words: {total}")
+
+print("\nCount words: ")
 print(output)
 
 print("\nWord density in percentage(%): ")
